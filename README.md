@@ -4,6 +4,6 @@
 
 ### App screenshots
 
-![Home]('/assets/home.png')
+![Home]('https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/home.png')
 
-![Modal info]('/assets/modal-info.png')
+![Modal info]('https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/modal-info.png')
