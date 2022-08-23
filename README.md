@@ -6,7 +6,8 @@
 - [x] List of all countries
 - [x] Details about each country
 - [ ] Groups
-- [ ] Matches
+- [ ] Matches by date
+- [ ] Score table
 
 ### Technologies used
 - React Native
