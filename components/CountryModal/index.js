@@ -6,13 +6,11 @@ import Layout from "../Layout";
 
 const CountryModal = ({ country, modalVisible, setModalVisible }) => {
   const countryInfo = {
-    region: country.region,
+    continent: country.continent.name,
     capital: country.capital,
-    population: country.population,
-    languages: Object.values(country.languages).join(", "),
-    currencies: Object.values(country.currencies)
-      .map(({ name }) => name)
-      .join(", "),
+    population: country.population || 'No information',
+    languages: country.languages.map(({ name }) => name).join(", "),
+    currency: country.currency,
   };
 
   return (

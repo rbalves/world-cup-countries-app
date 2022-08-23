@@ -4,8 +4,6 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import CountryModal from "../CountryModal";
 
-import Layout from "../Layout";
-
 const CountryCard = ({ country }) => {
   const [modalVisible, setModalVisible] = useState(false);
 
@@ -18,11 +16,11 @@ const CountryCard = ({ country }) => {
       />
       <View style={styles.countryCard}>
         <View style={{ flex: 1 }}>
-          <Text style={styles.countryFlag}>{country.flag}</Text>
+          <Text style={styles.countryFlag}>{country.emoji}</Text>
         </View>
         <View style={{ flex: 4 }}>
           <View>
-            <Text style={styles.countryTitle}>{country.name.common}</Text>
+            <Text style={styles.countryTitle}>{country.name}</Text>
           </View>
           <View style={styles.countryData}>
             <View

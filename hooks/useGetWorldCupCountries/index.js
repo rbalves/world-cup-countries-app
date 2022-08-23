@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import { worldCupCountries } from "../../data/worldCupCountries";
 
-import getAllCountries from "../../services/getAllCountries";
+import getAllCountries from "../../services/rest/getAllCountries";
 
 const useGetWorldCupCountries = () => {
   const [countries, setCountries] = useState([]);
