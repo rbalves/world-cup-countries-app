@@ -5,13 +5,9 @@ import { DataTable } from "react-native-paper";
 import Layout from "../Layout";
 
 const CountryModal = ({ country, modalVisible, setModalVisible }) => {
-  const countryInfo = {
-    continent: country.continent.name,
-    capital: country.capital,
-    population: country.population || 'No information',
-    languages: country.languages.map(({ name }) => name).join(", "),
-    currency: country.currency,
-  };
+  const { region, capital, population, languages, currencies } = country;
+
+  const countryInfo = { region, capital, population, languages, currencies };
 
   return (
     <Modal
@@ -19,6 +15,7 @@ const CountryModal = ({ country, modalVisible, setModalVisible }) => {
       onRequestClose={() => {
         setModalVisible(!modalVisible);
       }}
+      F
     >
       <Layout>
         <View style={{ marginTop: 12 }}>
@@ -30,28 +27,30 @@ const CountryModal = ({ country, modalVisible, setModalVisible }) => {
                 textAlign: "center",
               }}
             >
-              {country.name.common}
+              {country.name}
             </Text>
           </View>
           <View>
             <DataTable>
-              {Object.entries(countryInfo).map(([key, value]) => (
-                <DataTable.Row key={key}>
-                  <DataTable.Cell>
-                    <Text
-                      style={{
-                        fontWeight: "bold",
-                        textTransform: "capitalize",
-                      }}
-                    >
-                      {key}
-                    </Text>
-                  </DataTable.Cell>
-                  <DataTable.Cell>
-                    <Text>{value}</Text>
-                  </DataTable.Cell>
-                </DataTable.Row>
-              ))}
+              {Object.entries(countryInfo).map(([key, value]) =>
+                value ? (
+                  <DataTable.Row key={key}>
+                    <DataTable.Cell>
+                      <Text
+                        style={{
+                          fontWeight: "bold",
+                          textTransform: "capitalize",
+                        }}
+                      >
+                        {key}
+                      </Text>
+                    </DataTable.Cell>
+                    <DataTable.Cell>
+                      <Text>{value}</Text>
+                    </DataTable.Cell>
+                  </DataTable.Row>
+                ) : null
+              )}
             </DataTable>
           </View>
           <View>

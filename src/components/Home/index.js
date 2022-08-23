@@ -4,19 +4,19 @@ import Layout from "../Layout";
 import Loading from "../Loading";
 import NotFound from "../NotFound";
 
-import useGetWorldCupCountriesGraphql from "../../hooks/useGetWorldCupCountriesGraphql";
+import useGetWorldCupCountries from "../../hooks/useGetWorldCupCountries";
 
 export default function Home() {
-  const { countries, loading, error } = useGetWorldCupCountriesGraphql();
+  const { wordlCupCountries, loading, error } = useGetWorldCupCountries();
 
   if (loading) return <Loading />;
 
-  if (error || countries.length === 0) return <NotFound />;
+  if (error || wordlCupCountries.length === 0) return <NotFound />;
 
   return (
     <Layout>
       <CountriesList>
-        {countries.map((country) => (
+        {wordlCupCountries.map((country) => (
           <CountryCard key={country.code} country={country} />
         ))}
       </CountriesList>

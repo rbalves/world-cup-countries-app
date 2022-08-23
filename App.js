@@ -1,8 +1,8 @@
 import { ApolloProvider } from "@apollo/client";
 
-import { client } from "./services/graphql/client";
+import { client } from "./src/services/graphql/client";
 
-import Home from "./components/Home";
+import Home from "./src/components/Home";
 
 export default function App() {
   return (

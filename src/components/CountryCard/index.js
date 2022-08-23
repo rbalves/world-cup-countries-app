@@ -16,7 +16,7 @@ const CountryCard = ({ country }) => {
       />
       <View style={styles.countryCard}>
         <View style={{ flex: 1 }}>
-          <Text style={styles.countryFlag}>{country.emoji}</Text>
+          <Text style={styles.countryFlag}>{country.flag}</Text>
         </View>
         <View style={{ flex: 4 }}>
           <View>

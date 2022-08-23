@@ -1,14 +1,18 @@
-import { useQuery } from "@apollo/client";
-
-import { COUNTRIES_QUERY } from "../../services/graphql/queries";
-
 import { worldCupCountries } from "../../data/worldCupCountries";
+import useGetWorldCupCountriesGraphql from "../useGetCountriesGraphql";
 
-const useGetWorldCupCountriesGraphql = () => {
-  const { data, loading } = useQuery(COUNTRIES_QUERY);
+import useGetWorldCupCountriesRest from "../useGetCountriesRest";
 
-  const countries = data?.countries
-    .filter((country) => {
+const getCountriesBy = {
+  REST: () => useGetWorldCupCountriesRest(),
+  GRAPHQL: () => useGetWorldCupCountriesGraphql(),
+};
+
+const useGetWorldCupCountries = () => {
+  const { countries, loading, error } = getCountriesBy.GRAPHQL();
+
+  const wordlCupCountries = countries
+    ?.filter((country) => {
       return worldCupCountries
         .map((worldCupCountry) => worldCupCountry.nation.toLowerCase())
         .includes(country.name.toLowerCase());
@@ -32,7 +36,7 @@ const useGetWorldCupCountriesGraphql = () => {
     })
     .sort((a, b) => (a.fifa.ranking > b.fifa.ranking ? 1 : -1));
 
-  return { countries, loading };
+  return { wordlCupCountries, loading, error };
 };
 
-export default useGetWorldCupCountriesGraphql;
+export default useGetWorldCupCountries;
