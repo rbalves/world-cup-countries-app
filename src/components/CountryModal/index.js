@@ -32,8 +32,9 @@ const CountryModal = ({ country, modalVisible, setModalVisible }) => {
           </View>
           <View>
             <DataTable>
-              {Object.entries(countryInfo).map(([key, value]) =>
-                value ? (
+              {Object.entries(countryInfo)
+                .filter(([_, value]) => value)
+                .map(([key, value]) => (
                   <DataTable.Row key={key}>
                     <DataTable.Cell>
                       <Text
@@ -49,8 +50,7 @@ const CountryModal = ({ country, modalVisible, setModalVisible }) => {
                       <Text>{value}</Text>
                     </DataTable.Cell>
                   </DataTable.Row>
-                ) : null
-              )}
+                ))}
             </DataTable>
           </View>
           <View>
