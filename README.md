@@ -22,3 +22,9 @@
 </tr>
 </tbody>
 </table>
+
+### Technologies used
+- React Native
+- Axios
+- GraphQL
+- Apollo Client
