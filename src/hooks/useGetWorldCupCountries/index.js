@@ -1,6 +1,6 @@
 import { worldCupCountries } from "../../data/worldCupCountries";
-import useGetWorldCupCountriesGraphql from "../useGetCountriesGraphql";
 
+import useGetWorldCupCountriesGraphql from "../useGetCountriesGraphql";
 import useGetWorldCupCountriesRest from "../useGetCountriesRest";
 
 const getCountriesBy = {
