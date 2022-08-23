@@ -18,7 +18,7 @@ const useGetWorldCupCountries = () => {
         .includes(country.name.toLowerCase());
     })
     .map((country) => {
-      const { ranking, participations, titles, last_title_year } =
+      const { ranking, participations, titles, last_title_year, group } =
         worldCupCountries.find(
           (worldCupCountry) =>
             worldCupCountry.nation.toLowerCase() === country.name.toLowerCase()
@@ -31,6 +31,7 @@ const useGetWorldCupCountries = () => {
           participations,
           titles,
           last_title_year,
+          group
         },
       };
     })
