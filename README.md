@@ -5,7 +5,7 @@
 ### Features
 - [x] List of all countries
 - [x] Details about each country
-- [ ] Groups
+- [x] Groups
 - [ ] Matches by date
 - [ ] Score table
 
