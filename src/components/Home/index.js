@@ -14,7 +14,7 @@ export default function Home() {
   if (error || wordlCupCountries.length === 0) return <NotFound />;
 
   return (
-    <Layout>
+    <Layout title="Teams">
       <CountriesList>
         {wordlCupCountries.map((country) => (
           <CountryCard key={country.code} country={country} />
