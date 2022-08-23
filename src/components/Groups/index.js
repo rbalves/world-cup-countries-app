@@ -31,7 +31,7 @@ const Groups = () => {
 
   return (
     <Layout title="Groups">
-      <View>
+      <View style={{ marginTop: 12 }}>
         {groups.map(({ group, teams }) => {
           return (
             <View key={group} style={styles.groupCard}>
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     flexDirection: "column",
   },
   groupTitle: {
-    fontSize: 18,
+    fontSize: 20,
     lineHeight: 20,
     fontWeight: "bold",
   },
