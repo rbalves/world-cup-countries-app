@@ -5,7 +5,8 @@
 ### Features
 - [x] List of all countries
 - [x] Details about each country
-- [ ] List of groups
+- [ ] Groups
+- [ ] Matches
 
 ### Technologies used
 - React Native
