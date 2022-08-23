@@ -6,6 +6,7 @@ export const worldCupCountries = [
     participations: 11,
     titles: 0,
     last_title_year: 0,
+    group: "A",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const worldCupCountries = [
     participations: 20,
     titles: 4,
     last_title_year: 2014,
+    group: "E",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "D",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ export const worldCupCountries = [
     participations: 22,
     titles: 5,
     last_title_year: 2002,
+    group: "G",
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ export const worldCupCountries = [
     participations: 16,
     titles: 2,
     last_title_year: 2018,
+    group: "D",
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ export const worldCupCountries = [
     participations: 14,
     titles: 0,
     last_title_year: 0,
+    group: "F",
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "F",
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ export const worldCupCountries = [
     participations: 16,
     titles: 1,
     last_title_year: 2010,
+    group: "E",
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ export const worldCupCountries = [
     participations: 4,
     titles: 0,
     last_title_year: 0,
+    group: "G",
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ export const worldCupCountries = [
     participations: 16,
     titles: 1,
     last_title_year: 1966,
+    group: "B",
   },
   {
     id: 11,
@@ -86,6 +96,7 @@ export const worldCupCountries = [
     participations: 12,
     titles: 0,
     last_title_year: 0,
+    group: "G",
   },
   {
     id: 12,
@@ -94,6 +105,7 @@ export const worldCupCountries = [
     participations: 11,
     titles: 0,
     last_title_year: 0,
+    group: "A",
   },
   {
     id: 13,
@@ -102,6 +114,7 @@ export const worldCupCountries = [
     participations: 18,
     titles: 2,
     last_title_year: 1986,
+    group: "C",
   },
   {
     id: 14,
@@ -110,6 +123,7 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "B",
   },
   {
     id: 15,
@@ -118,6 +132,7 @@ export const worldCupCountries = [
     participations: 11,
     titles: 0,
     last_title_year: 0,
+    group: "H",
   },
   {
     id: 16,
@@ -126,6 +141,7 @@ export const worldCupCountries = [
     participations: 7,
     titles: 0,
     last_title_year: 0,
+    group: "E",
   },
   {
     id: 17,
@@ -134,6 +150,7 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "C",
   },
   {
     id: 18,
@@ -142,6 +159,7 @@ export const worldCupCountries = [
     participations: 4,
     titles: 0,
     last_title_year: 0,
+    group: "A",
   },
   {
     id: 19,
@@ -150,6 +168,7 @@ export const worldCupCountries = [
     participations: 14,
     titles: 2,
     last_title_year: 1950,
+    group: "H",
   },
   {
     id: 20,
@@ -158,6 +177,7 @@ export const worldCupCountries = [
     participations: 2,
     titles: 0,
     last_title_year: 0,
+    group: "F",
   },
   {
     id: 21,
@@ -166,6 +186,7 @@ export const worldCupCountries = [
     participations: 4,
     titles: 0,
     last_title_year: 0,
+    group: "H",
   },
   {
     id: 22,
@@ -174,6 +195,7 @@ export const worldCupCountries = [
     participations: 3,
     titles: 0,
     last_title_year: 0,
+    group: "A",
   },
   {
     id: 23,
@@ -182,6 +204,7 @@ export const worldCupCountries = [
     participations: 8,
     titles: 0,
     last_title_year: 0,
+    group: "H",
   },
   {
     id: 24,
@@ -190,6 +213,7 @@ export const worldCupCountries = [
     participations: 9,
     titles: 0,
     last_title_year: 0,
+    group: "C",
   },
   {
     id: 25,
@@ -198,6 +222,7 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "D",
   },
   {
     id: 26,
@@ -206,6 +231,7 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "F",
   },
   {
     id: 27,
@@ -214,6 +240,7 @@ export const worldCupCountries = [
     participations: 8,
     titles: 0,
     last_title_year: 0,
+    group: "G",
   },
   {
     id: 28,
@@ -222,6 +249,7 @@ export const worldCupCountries = [
     participations: 11,
     titles: 0,
     last_title_year: 0,
+    group: "B",
   },
   {
     id: 29,
@@ -230,6 +258,7 @@ export const worldCupCountries = [
     participations: 17,
     titles: 0,
     last_title_year: 0,
+    group: "C",
   },
   {
     id: 30,
@@ -238,6 +267,7 @@ export const worldCupCountries = [
     participations: 2,
     titles: 0,
     last_title_year: 0,
+    group: "B",
   },
   {
     id: 31,
@@ -246,6 +276,7 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "D",
   },
   {
     id: 32,
@@ -254,5 +285,6 @@ export const worldCupCountries = [
     participations: 6,
     titles: 0,
     last_title_year: 0,
+    group: "E",
   },
 ];
