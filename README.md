@@ -1,6 +1,6 @@
 # World Cup 2022
 
-## App developed with React Native that lists the participating countries of the world cup
+## App that lists the participating countries of the world cup
 
 ### Features
 
