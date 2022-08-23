@@ -3,6 +3,16 @@
 ## App that lists the participating countries of the world cup
 
 ### Features
+- [x] List of all countries
+- [x] Details about each country
+- [ ] List of groups
+
+### Technologies used
+- React Native
+- Axios
+- GraphQL
+- Apollo Client
+### Screenshots
 
 <table>
 <thead>
@@ -22,9 +32,3 @@
 </tr>
 </tbody>
 </table>
-
-### Technologies used
-- React Native
-- Axios
-- GraphQL
-- Apollo Client
