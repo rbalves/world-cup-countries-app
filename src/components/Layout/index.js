@@ -1,6 +1,6 @@
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title = "" }) => {
   return (
     <SafeAreaView>
       <ScrollView>
@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
           <View>
             <Text style={styles.pageTitle}>World Cup 2022</Text>
           </View>
+          {title && <Text style={styles.pageSubTitle}>{title}</Text>}
           {children}
         </View>
       </ScrollView>
@@ -22,6 +23,11 @@ const styles = StyleSheet.create({
   },
   pageTitle: {
     fontSize: 30,
+    lineHeight: 40,
+    fontWeight: "bold",
+  },
+  pageSubTitle: {
+    fontSize: 24,
     lineHeight: 40,
     fontWeight: "bold",
   },
