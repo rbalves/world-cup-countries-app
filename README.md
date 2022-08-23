@@ -33,7 +33,7 @@
 <img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/modal.png"/>
 </td>
 <td>
-<img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/groups.png"/>
+<img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/groups-page.png"/>
 </td>
 </tr>
 </tbody>
