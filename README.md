@@ -27,7 +27,7 @@
 <tbody>
 <tr>
 <td>
-<img alt="Home" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/teams-list.png"/>
+<img alt="Home" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/teams.png"/>
 </td>
 <td>
 <img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/modal.png"/>
