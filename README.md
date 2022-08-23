@@ -21,15 +21,19 @@
 <tr>
 <th>Countries list</th>
 <th>Details about country</th>
+<th>Groups</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<img alt="Home" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/home.png"/>
+<img alt="Home" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/teams-list.png"/>
 </td>
 <td>
 <img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/modal-info.png"/>
+</td>
+<td>
+<img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/groups.png"/>
 </td>
 </tr>
 </tbody>
