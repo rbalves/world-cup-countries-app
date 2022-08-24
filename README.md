@@ -6,8 +6,7 @@
 - [x] List of all countries
 - [x] Details about each country
 - [x] Groups
-- [ ] Matches by date
-- [ ] Score table
+- [x] Matches by date
 
 ### Technologies used
 - React Native
@@ -21,19 +20,33 @@
 <tr>
 <th>Countries list</th>
 <th>Details about country</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<img alt="Teams" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/teams.png"/>
+</td>
+<td>
+<img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/modal.png"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th>Groups</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<img alt="Home" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/teams.png"/>
+<img alt="Groups" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/groups-page.png"/>
 </td>
 <td>
-<img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/modal.png"/>
-</td>
-<td>
-<img alt="Modal" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/groups-page.png"/>
+<img alt="Matches" src="https://raw.githubusercontent.com/rbalves/world-cup-countries-app/main/assets/matches.png"/>
 </td>
 </tr>
 </tbody>
