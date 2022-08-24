@@ -38,6 +38,7 @@
 <thead>
 <tr>
 <th>Groups</th>
+<th>Matches</th>
 </tr>
 </thead>
 <tbody>
