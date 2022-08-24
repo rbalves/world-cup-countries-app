@@ -1,6 +1,6 @@
 # World Cup 2022
 
-## App that lists the participating countries of the world cup
+## App about world cup teams and matches
 
 ### Features
 - [x] List of all countries
