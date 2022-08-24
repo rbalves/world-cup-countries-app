@@ -8,6 +8,7 @@ import { client } from "./src/services/graphql/client";
 
 import Home from "./src/components/Home";
 import Groups from "./src/components/Groups";
+import Macthes from "./src/components/Matches";
 
 export default function App() {
   const [index, setIndex] = useState(0);
@@ -21,11 +22,16 @@ export default function App() {
       key: "groups",
       title: "Groups",
     },
+    {
+      key: "matches",
+      title: "Matches",
+    },
   ]);
 
   const renderScene = BottomNavigation.SceneMap({
     teams: () => <Home />,
     groups: () => <Groups />,
+    matches: () => <Macthes />,
   });
 
   return (
